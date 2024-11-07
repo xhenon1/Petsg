@@ -1,4 +1,4 @@
-local Rice = Instance.new("ScreenGui")
+local PETSGO = Instance.new("ScreenGui")
 local Main = Instance.new("Frame")
 local Title = Instance.new("TextLabel")
 local Credits = Instance.new("TextLabel")
@@ -7,12 +7,12 @@ local UICorner = Instance.new("UICorner")
 local OpenClose = Instance.new("TextButton")
 local UICorner_2 = Instance.new("UICorner")
 
-Rice.Name = "Rice"
-Rice.Parent = game.CoreGui
-Rice.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+PETSGO.Name = "PETSGO"
+PETSGO.Parent = game.CoreGui
+PETSGO.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 Main.Name = "Main"
-Main.Parent = Rice
+Main.Parent = PETSGO
 Main.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
 Main.BorderSizePixel = 0
 Main.Position = UDim2.new(0.321207851, 0, 0.409807354, 0)
@@ -27,7 +27,7 @@ Title.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
 Title.BorderSizePixel = 0
 Title.Size = UDim2.new(0, 295, 0, 16)
 Title.Font = Enum.Font.GothamBold
-Title.Text = "Rice Anti-Afk"
+Title.Text = "PETSGO INSTANT LUCK"
 Title.TextColor3 = Color3.fromRGB(255, 255, 255)
 Title.TextScaled = true
 Title.TextSize = 12.000
@@ -71,7 +71,7 @@ end)
 UICorner.Parent = Activate
 
 OpenClose.Name = "Open/Close"
-OpenClose.Parent = Rice
+OpenClose.Parent = PETSGO
 OpenClose.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
 OpenClose.Position = UDim2.new(0.353924811, 0, 0.921739101, 0)
 OpenClose.Size = UDim2.new(0, 247, 0, 35)
